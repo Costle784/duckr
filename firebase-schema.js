@@ -4,31 +4,31 @@
     uid
     avatar
 
-/ducks
-  duckId
+/toots
+  tootId
     avatar
-    duckId
+    tootId
     name
     text
     timestamp
-    uid (of duck author)
+    uid (of toot author)
 
 /likeCount
-  duckId
+  tootId
     0
 
-/usersDucks
+/usersToots
   uid
-    duckId
+    tootId
       avatar
-      duckId
+      tootId
       name
       text
       timestamp
-      uid (of duck author)
+      uid (of toot author)
 
 /replies
-  duckId
+  tootId
     replyId
       name
       comment
@@ -38,4 +38,4 @@
 
 /usersLikes
   uid
-    duckId: true
+    tootId: true
